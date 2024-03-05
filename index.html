@@ -1,1 +1,71 @@
-
+<!-- Since you're reading my code, why not support me on Patreon? -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.ts"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Polynomials, Timothy-P</title>
+    </head>
+    <body>
+        <div>
+            <p>(</p>
+            <input id="NI1">
+            <select name="DI1" id="DI1">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+            </select>
+            <input id="XI1">
+            <p class="MathX">&#120013;</p>
+            <select name="BI1" id="BI1">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+            </select>
+            <input id="NI2">
+            <select name="DI2" id="DI2">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+            </select>
+            <input id="XI2">
+            <p>)</p>
+        </div>
+        <br>
+        <div style="width: 100%;display:inherit;">
+            <select name="DO" id="DO">
+                <option value="multi"></option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <p>(</p>
+            <input id="NI3">
+            <select name="DI3" id="DI3">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+            </select>
+            <input id="XI3">
+            <p class="MathX">&#120013;</p>
+            <select name="BI2" id="BI2">
+                <option value="add">+</option>
+                <option value="subtract"></option>
+            </select>
+            <input id="NI4">
+            <select name="DI4" id="DI4">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+            </select>
+            <input id="XI4">
+            <p>)</p>
+        </div>
+        <br>
+        <div style="width:100%;display:inherit;">
+            <button onclick="Alpha()">Calculate</button>
+        </div>
+        <div style="width: 100%;display: inherit;"><button onclick="alert('This calculator is minimal, just like my work.\nIf you want something extra that looks nicer, send me a message on Discord. :&#41;')">Notes</button></div>
+    </body>
+</html>

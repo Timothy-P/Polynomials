@@ -1,1 +1,46 @@
-
+body {
+    background: black;
+    color: cornflowerblue;
+    justify-content: center;
+    scrollbar-width: none;
+    display: grid;
+}
+input {
+    color:cornflowerblue;
+    justify-content: center;
+    background-color:darkblue;
+    border: transparent;
+    border-radius: 12px;
+    min-width: 50px;
+    max-width: 100px;
+    overflow: scroll;
+    display:inline-block
+}
+select{
+    color:cornflowerblue;
+    justify-content: center;
+    background-color:darkblue;
+    border: transparent;
+    border-radius: 12px;
+}
+button {
+    color:cornflowerblue;
+    justify-content: center;
+    background-color:darkblue;
+    border: transparent;
+    border-radius: 12px;
+    height:fit-content;
+    width: fit-content;
+}
+.MathX {
+    font-size:2em;
+}
+p {
+    width:fit-content;
+    display:inline-block
+}
+div {
+    height:fit-content;
+    width:fit-content;
+    justify-content:center;
+}
