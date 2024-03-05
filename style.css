@@ -43,4 +43,5 @@ div {
     height:fit-content;
     width:fit-content;
     justify-content:center;
+    display: inherit;
 }
